@@ -22,7 +22,7 @@ namespace CGAlgorithms.Algorithms.SegmentIntersection
                            ref List<Point> outPoints, ref List<Line> outLines,
                            ref List<Polygon> outPolygons)
         {
-            // Ensure all line segments are correctly oriented
+            // Ensure all line segments are correctly oriented.
             foreach (Line line in lines)
             {
                 if (line.End.X < line.Start.X)
