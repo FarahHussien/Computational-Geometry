@@ -45,7 +45,7 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
             while (start_indx != polygon.lines.Count)
             {
                 Point current_point = vertices[start_indx];
-                Point top = stack.Peek(); // get top of  stack without removing it
+                Point top = stack.Peek(); // get top of stack without removing it
                                           
                 bool same_side = false;
                 if (current_point.X < vertices[0].X && top.X < vertices[0].X)
